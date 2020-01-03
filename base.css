@@ -1,0 +1,89 @@
+@import "https://discordtheme.alexflipnote.dev/theme.css";
+@import "https://discordtheme.alexflipnote.dev/plugins/hideSearch.css";
+@import "https://discordtheme.alexflipnote.dev/plugins/autoMemberlist.css";
+
+:root{
+--accent: #32ff32;
+--dark-highlight: #181a1c;
+--dark-highlight-guildlist: #181a1c;
+--dark-primary: #15181a;
+--dark-secondary: #222426;
+--notif: red;
+--link: #39ad39;
+}
+
+::selection {
+  background-color: #32ff32;
+  color: #fff;
+}
+
+.bar-30k2ka.unread-1xRYoj {
+  background-color: var(--notif)
+}
+
+.embedFull-2tM8--
+{
+    background: rgba(0,0,0,0.3);
+    box-shadow: var(--elevation-high);
+    border: 5px solid #000;
+    border-right: none; /* <-- this right here can be enabled by removing this comment */
+}
+
+a, a:link, a:visited {
+  color: var(--link);
+}
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+  border-left: 3px solid var(--accent);
+}
+
+div[class*="base-"] div[class*="sidebar-"] div[class*="containerDefault-"] div[class*="modeUnread-"] div[class*="name-"] {
+  color: var(--notif);
+}
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .icon-1_QxNX, #app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU {
+  border: 1px solid var(--notif);
+}
+
+div[class*="base-"] div[class*="sidebar-"] div[class*="containerDefault-"] div[class*="modeUnread-"] svg[class*="icon-"] path {
+  fill: var(--notif);
+}
+
+div[class*="base-"] div[class*="sidebar-"] div[class*="containerDefault-"] div[class*="unread-"] {
+  background-color: var(--notif);
+}
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .icon-1_QxNX, #app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU icon-1_QxNX {
+  color: var(--notif);
+  border: none;
+}
+
+img {
+  transition: 0.3s ease;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+.modal-3c3bKg img:hover {
+  opacity: 1;
+}
+
+.contents-18-Yxp {
+  color: #fff;
+}
+
+div[class*="avatar-"] div[class*="wrapper-"] {
+    -webkit-border-radius: 0%;
+    border-radius: 0%;
+    border: 1px solid var(--accent);
+}
+
+
+.emoji:hover {
+  transform: scale(2);
+}
+
+.emoji:active {
+    transform: scale(4);
+}
